@@ -1,0 +1,247 @@
+#title{
+    font-family: Tenor Sans;
+}
+
+
+.container-fluid {
+    padding: 2% 5%;
+}
+
+#corner{
+    font-size:xx-large;
+    font-family: Expletus Sans;
+    color:rgb(227, 149, 125);
+}
+#navbar-link{
+    color: rgb(51, 137, 124);
+}
+
+.title-image {
+    width: 80%; 
+    position: absolute;
+}
+/** Arrow animation**/
+.arrow{
+    position: relative;
+}
+.bounce {
+    animation: bounce 2s infinite;
+  }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+/**Arrow animation end**/
+
+h1{
+    padding:8% 20%;
+    font-family: Tenor Sans;
+    font-size: xx-large;
+    font-weight: 300;
+    background-color: rgb(234, 224, 213);
+    color: rgb(30, 78, 71);
+}
+
+h2{
+    font-family: Tenor Sans;
+    color: rgb(51, 137, 124);
+    margin: 2% 14%;
+    font-size: medium;
+}
+
+h3{
+    padding:5% 0%;
+    font-family: Bungee Shade;
+    font-size:500%;
+    font-weight: 300;
+    color: rgb(30, 78, 71);
+}
+
+h4 {
+    font-family: Tenor Sans;
+    color:rgb(51, 137, 124);
+    padding: 5% 20% 5% 0%;
+    font-size: large;
+}
+
+h5{
+    font-family: Tenor Sans;
+    font-weight: 600;
+}
+
+h6{
+    font-size: 70px;
+    padding:5%;
+    font-family: Tenor Sans;
+}
+
+#caption{
+    font-family: Titillium Web;
+    font-weight: 20;
+}
+
+#experience{
+    padding: 10% 10%;
+}
+#palomarlogo{
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#burnlogo{
+    border-radius: 50%;
+    height:auto;
+    width:auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.btn{
+    box-shadow: 0px 0px 10px #c2c0c0;
+    margin-bottom: 5%;
+    border-radius: 20%;
+}
+.btn:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+#palomar-head {
+    padding:5% 20% 5% 20%;
+    font-family: Bungee Shade;
+    font-size: 50px;
+    font-weight: 400;
+    background-color: rgb(234, 224, 213);
+    color: rgb(30, 78, 71);
+    text-align: center;
+    background-image: url("images/Background title.png");
+    background-position: center;
+}
+
+#main{
+    margin: 4% 20% 4% 20%;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 10px;
+}
+#caption:before{
+    content: "+ ";
+}
+
+
+
+#information{
+    color:rgb(51, 137, 124);
+    font-family: Tenor Sans;
+    font-size: medium;
+}
+
+#link{
+    font-weight: 100;
+    text-decoration-line: underline;
+    color:rgb(30, 78, 71);
+}
+#link:hover{
+    color:rgb(227, 149, 125) ;
+}
+
+table{
+    color: rgb(30, 78, 71);
+    padding: 5%;
+    border-bottom:1px solid ;
+    border-top: 1px solid;
+    margin-bottom: 3%;
+}
+
+#Cerner-icon{
+    height: 300px;
+    width: 600px;
+    border-radius: 20%;
+    padding: 5%;
+}
+
+#quote {
+    border-bottom: none;
+    border-top: none;
+    border-left: 3px solid;
+    padding-left: 30px;
+    text-transform: italics;
+    margin-left: 30px;
+    font-style: italic;
+}
+th{
+    padding-left: 30px;
+}
+
+#important {
+    background-color:rgb(227, 149, 125);
+    color: white;
+    text-align: center;
+    
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #eebf9b 20px ), repeating-linear-gradient( rgb(227, 149, 125), #f76e44 );
+}
+
+#sidepicture{
+    height: 100px;
+    width: 150px;
+}
+
+#providerchart {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+}
+
+
+#testimonials{
+    background-color:rgb(227, 149, 125);
+    text-align: center;
+    font-size: xx-large;
+}
+
+#testimonial-quotes, em{
+    color: white;
+    font-family: Tenor Sans;
+}
+.carousel-item{
+    padding: 7% 20%;
+}
+
+#slide-2{
+    background-color: #eebf9b;
+}
+
+.fa-brain{
+    color: rgb(30, 78, 71);
+}
+
+#profile{
+    font-family:Expletus Sans ;
+    color:rgb(227, 149, 125) ;
+    margin-left: 30%;
+    font-size: 80px;
+}
+
+#profile-info{
+    background-color:rgb(227, 149, 125) ;
+}
